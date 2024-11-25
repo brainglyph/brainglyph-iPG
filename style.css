@@ -1,7 +1,14 @@
 @import url(//fonts.googleapis.com/css?family=Lato:400,700);
 
+@font-face {
+	url('./AuxMono-Regular.ttf');
+	font-face-name: "Aux Mono";
+}
+
 body {
-	font: 14px 'Lato', sans-serif;
+	background: #1d1d1b;
+	font: 14px 'Aux Mono', sans-serif;
+	color: #daff01;
 }
 
 a {color: #336699; text-decoration: none;}
@@ -12,36 +19,48 @@ a:hover {color: #336699; text-decoration: underline;}
 #question {
 	margin: 100px 0; padding: 0 50px;
 	
-	color: #333;
+	color: #daff01;
 	font-size: 64px; font-weight: bold;
 	text-align: center;
 	line-height: 84px;
 }
 #timer {
 	width: 120px;
-	margin: 0 auto 50px auto; padding: 4px 0;
+	margin: 0 auto 50px auto; padding: 13px 0 8px 0;
 	
-	color: #666;
+	color: #daff01;
 	border: 2px #999 solid;
 	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
 	font-size: 24px;
 	text-align: center;
 }
-.warning {background: #ffcc66;}
-.fail {background: #ff9999;}
+.warning {background: #a37b2c;}
+.fail {background: #6e2828;}
 
-.tip {text-align: center;}
-.tip strong {margin-right: 5px;}
+.tip {
+	text-align: center;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 40px;
+}
+.tip strong {
+	margin-right: 5px;
+}
 
 .controls {
-	width: 320px; height: 70px;
-	margin: 50px auto; padding: 5px 15px;
+	width: 420px; height: 70px;
+	margin: 45px auto; padding: 5px 15px;
 	
-	background: #f1f1f1;
-	border: 1px #ccc solid;
+	background: #daff01;
+	border: 1px #b1cc00 solid;
 	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
-	text-shadow: #fff 0 1px 0;
 }
+
+.keycontrols {
+	color: #1d1d1b;
+}
+
 .controls h1 {margin-bottom: 15px; font-size: 14px; font-weight: bold;}
 .controls .key {
 	float: left;
@@ -66,13 +85,13 @@ a:hover {color: #336699; text-decoration: underline;}
 .hide {display: none;}
 
 .footer {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	
-	color: #999;
+	color: #daff01;
 	font-size: 12px;
 	text-align: center;
 }
-.footer a {color: #333; text-decoration: none;}
+.footer a {color: #fff; text-decoration: none;}
 .footer a:hover {color: #333; text-decoration: underline;}
 
 .egg {

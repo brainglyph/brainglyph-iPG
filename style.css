@@ -57,6 +57,29 @@ a:hover {color: #336699; text-decoration: underline;}
 	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
 }
 
+.controls-touch {
+	width: 420px;
+	margin: 45px auto; padding: 5px 15px;
+
+	background: #daff01;
+	border: 1px #b1cc00 solid;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+
+.controls-touch {
+	display: none;
+}
+
+.controls-touch .key {
+	text-align: center;
+	background: #1d1d1b;
+	padding: 15px 0 6px 0;
+	margin-top: 5px;
+	margin-bottom: 8px;
+	min-height: 25px;
+	vertical-align: center;
+}
+
 .keycontrols {
 	color: #1d1d1b;
 }
@@ -104,4 +127,9 @@ a:hover {color: #336699; text-decoration: underline;}
 	border: 2px #ccc solid;
 	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
 	box-shadow: #ccc 0 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+	.controls-touch {display: block;}
+	.controls {display: none;}
 }

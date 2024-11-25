@@ -73,10 +73,8 @@ var q = [
 	'What is the next step with the product evolution?',
 	'Have you raised funding?',
 	'Who would be your next hire?',
-	
 	'How do you know people want this?',
 	'What do you know about this space/product others don&#39;t know?',
-
 	'Thousands of games come out every year, how do you plan to be the one to push through?',
 	'You are only two people are you sure you can make the game?',
 	'Games are very expensive to make, can you make the game with what we give from Innofounder?',
